@@ -30,5 +30,10 @@ exports.config = {
     I: './steps_file.js',
     tasksPage: "./pages/tasks.js",
   },
+  mocha: {
+    reporterOptions: {
+      reportDir: "output"
+    }
+  },
   name: 'codecept-xpress-qax'
 }
